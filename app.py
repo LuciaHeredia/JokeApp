@@ -3,7 +3,7 @@ import jokeApi
 
 app = Flask(__name__)
 
-@app.route('/', methods=['POST'])
+@app.route('/', methods=['GET'])
 def index():
     return render_template('index.html', joke_text=jokeApi.get_joke())
 
