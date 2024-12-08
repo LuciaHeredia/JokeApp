@@ -1,6 +1,6 @@
 # JokeApp
 Flask Web App to retrieve jokes(categorized by type) programmatically and display them. <br/>
-<img src = "pictures/web_screenshot.png" height="300"> <br/>
+<img src = "pictures/web_screenshot.png"> <br/>
 
 ## Using:
 - Web Framework: **Flask** <br/>
