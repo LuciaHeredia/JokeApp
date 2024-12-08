@@ -17,6 +17,11 @@ body {
     font-size: 2rem;
 }
 
+h5 {
+    font-size: 0.7rem;
+    border-radius: 10px;
+}
+
 h4,
 button {
     font-size: 2rem;

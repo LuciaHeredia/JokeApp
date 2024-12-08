@@ -1,6 +1,11 @@
 import requests
 
-api_url = 'https://v2.jokeapi.dev/joke/Programming?type=single' # category: Programming
+joke_category = 'Programming'
+joke_type='single'
+api_url = 'https://v2.jokeapi.dev/joke/'+joke_category+'?type='+joke_type
+
+def get_joke_category():
+    return joke_category
 
 def get_joke():
     try:
